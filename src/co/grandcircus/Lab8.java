@@ -27,55 +27,47 @@ public class Lab8 {
 				scan.hasNextLine();
 				if (student >= 1 && student <= 6)
 					break;
-			}
-		System.out.println(students[student - 1]);
-		System.out.println("what else would you like to know? (hometown / food): ");
-
-		        }
-		    }
+		}
+	System.out.println("Student " + (students[student - 1]);
+		System.out.println("what else would you like to know? (hometown/food): ");
+	String field = "";
+	field = scan.nextLine();
 		
-		
-		
-		
-
-//		
-//		//get user input for student number and show error if invalid 
-//		System.out.println("Welcome to our Java class! Which student would like to learn more about? (enter a number 1-6): ");
-//		int student = scan.nextInt();
-//		//int x = scan.nextInt();
-//		if (student > 6 ){
-//		System.out.println("That student doesnt exist. please try again. (enter a number 1-6)");
-//	
-//		scan.close();
-//		System.out.print(("Student ") + (student) + "is "  + (students(student)) + ".") ;
-//		System.out.println("What would you like to know about" + (students(student)) +"?");
-//		
-		
-		
-
-		
-		
-//		//parallel arrays are arrays that typically are the same amount of items
-//		//but may be different types
-//		//that use the indices to reference things that go together
-//		String[]  = {"Nick","Adam","Devosha","Stassi"};
-//		int[] jerseyNums = {3, 15, 2, 14};
-//		String[] teamName = {"Arsenal", "Chelsea","Cookie Love","Lit"};
-//		
-//		for (int i = 0; i < players.length; i++) {
-//			System.out.println(jerseyNums[i] + " " + players[i] + " " + teamName[i]);
-//		}
-//		int[] jerseyNums2 = {3, 15, 2, 14, 67, 89, 32};
-//		int jerseySum = sumArray(jerseyNums2);
-//		System.out.println(jerseySum);
+//	try{
+//
+//		if(field.equals("hometown"))
+//		System.out.println(hometown[student - 1]
+//				);
+//	else if(field.equals("food")){
+//	System.out.println(food[student - 1]);
+//	}else{
+//		throw new IllegalArgumentException("No such field");
 //	}
+//		 } catch(IllegalArgumentException x){
+//	while(true){
+//	System.out.println("No such field. Please select hometown or food");
+//	field = scan.nextLine();
+//	if(field.equals("hometown")){
+//	 System.out.println(hometown[student - 1]);
+//		break;
+//		}else if(field.equals("food")){
+//		System.out.println(food[student - 1]);
+//	break;
+//	}
+//	 }
+//}
 //
-//
-//public static int sumArray(int[] arr) {
-//	int sum = 0;
-//	
-//	for(int i = 0; i < arr.length; i++) {
-//		sum += arr[i];
+//System.out.println("would you like another students info?(Y / N): ");
+//		String cont = scan.nextLine();
+//		if (cont.equalsIgnoreCase("N"));
+//		                break;
+//		       }
+		
+		
+		
+		
+
+
 //		
 //	}
 //	return sum;
@@ -83,5 +75,4 @@ public class Lab8 {
 }
 }
 
-	
-	}
+}
